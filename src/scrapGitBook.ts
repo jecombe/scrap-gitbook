@@ -75,7 +75,7 @@ const saveMarkdownToFile = (
 /**
  * Main function
  */
-export const scrapGitBook = async (
+const scrapGitBook = async (
   gitbookUrl: string,
   outputFile: string
 ): Promise<void> => {
@@ -107,3 +107,5 @@ export const scrapGitBook = async (
 
   logger.info("✅ Done!");
 };
+
+export default scrapGitBook;
