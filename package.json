@@ -1,13 +1,11 @@
 {
   "name": "scrap-gitbook",
-  "version": "1.0.3",
-  "main": "src/scrapGitBook.js",
-  "types": "src/scrapGitBook.d.ts",
+  "version": "1.0.4",
+  "main": "dist/scrapGitBook.js",
+  "types": "dist/scrapGitBook.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-run": "tsc && node dist/index.js",
-    "prepublishOnly": "npm run build"
-
+    "build-run": "tsc && node dist/index.js"
   },
   "keywords": [],
   "author": "",
