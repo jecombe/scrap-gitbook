@@ -18,7 +18,7 @@ const fetchHtml = async (url: string): Promise<string | null> => {
     return response.data;
   } catch (error: any) {
     logger.error(`❌ Error loading ${url}: ${error.message}`);
-    return null;
+    throw error;
   }
 };
 
